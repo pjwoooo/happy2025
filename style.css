@@ -19,10 +19,8 @@
 }
 body {
     /* background: #6ba49d; */
-    height: auto;
-    background: linear-gradient(180deg, #6ba49d 70%, #599094);
+     background: linear-gradient(180deg, #6ba49d 70%, #599094);
     zoom: 110%;
-    
 }
 
 /* width */
@@ -47,8 +45,6 @@ body {
 
 .wrapper {
     height: auto;
-    padding: 2rem;
-    
 }
 
 h1 {
@@ -66,7 +62,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
+    width: 100%;
 }
 
 .message img {
