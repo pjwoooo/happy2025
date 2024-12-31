@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Schoolbell&family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Schoolbell&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.eb {
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 400;
+}
+
+.pt {
+    font-family: 'PT Serif';
+}
+body {
+    /* background: #6ba49d; */
+    height: 100lvh;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #315d68; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #508b8d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #447c7e; 
+  }
+
+.wrapper {
+    height: auto;
+    background: linear-gradient(180deg, #6ba49d 70%, #599094);
+    padding-bottom: 2rem;
+}
+
+h1 {
+    text-align: center;
+    
+    text-shadow: 2px 2px 0 #ff9292;
+}
+
+.spacer {
+    height: 2rem;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.message img {
+    width: 25rem;
+}
+
+.letter {
+    width: 100%;
+    padding: 2rem;
+}
+
+.letter-content {
+    background: #508b8d;
+    padding: 1rem;
+    box-shadow: 4px 4px 0 #3d6b77;
+    /* border: 4px solid #3d6b77; */
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 2rem;
+    line-height: 2rem;
+    text-shadow: 2px 2px 2px #3d6b77;
+}
